@@ -1,0 +1,13 @@
+{
+  "title": "Pocket Bookmark Pro",
+  "logo": "/assets/pbpro/logo.png",
+  "appLink" : "/assets/pbpro/pbpro.apk",
+  "version":"App version 1.12",
+  "description" : "Store your favorite Web Addresses in app.\n\nFutures:\nSimple and easy to use\nClean UI\nmove item from one folder to another\nStore Web Address directly from web browser via share optionor add manually.\nadd/delete/move/share items\nshare an Address or entire Address list to another app.\nNo signup or login required.\n\n- Clean UI\n- organize your favorite links\n- easy to operate\n- make categories folders\n- directly save links from browsers by share option\n- add, delete, modify bookmarks\n- very fast processing\n- no unwanted permissions\n- 100% safe\n- backup or restore entire bookmark data\n\nWhat is Bookmark?:\nAlso called favorite. a link to a website address saved electronically in a browser to facilitate quick access to the web page. an electronic pointer created in a computer file to facilitate quick access to a specific part of the text.\n\nWhy create a bookmark?:\nA bookmark is handy when you find a web page that you want to remember and be able to look at another day. When you bookmark a web page, you are creating a shortcut for quick access to that web page. You can access that bookmark at any time and view the web page as many times as you want without having to search the Internet to find it again.",
+  "screenshots": [
+    "/assets/pbpro/ss0.png",
+    "/assets/pbpro/ss1.png",
+    "/assets/pbpro/ss2.png",
+    "/assets/pbpro/ss3.png"
+  ]
+}
