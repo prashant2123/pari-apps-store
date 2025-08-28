@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Apps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src = "tempelate.js"></script>
+    <link rel="icon" href="images/pariapps_logo.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="navContainer">
+</div>
+<!-- Hero Section -->
+<div class="bg-light p-5 text-center">
+    <h1 class="display-4">Welcome to PariApps Store</h1>
+    <p class="lead">Discover and download amazing Android apps.</p>
+</div>
+
+<!-- Product List -->
+<div class="container my-5">
+    <div id="idCustomizableDiv">Customizable Division</div>
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col"> <!-- class="col-md-4 mb-4" -->
+            <div class="card h-100">
+                <a href="pr-emp3.html"><img src="assets/emp3/logo.png" class="card-img-top" alt="App 1"></a> <!-- todo: Editable -->
+                <div class="card-body">
+                    <h5 class="card-title">Easy MP3 Recorder</h5><!-- todo: Editable -->
+                    <p class="card-text">Easily record any sound with one click.</p><!-- todo: Editable -->
+                    <a href="pr-emp3.html" class="btn btn-primary">View Details</a><!-- todo: Editable -->
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <a href="pr-ss.html"><img src="assets/ss/logo.png" class="card-img-top" alt="App 2"></a>
+                <div class="card-body">
+                    <h5 class="card-title">SoundScribe MP3 Recorder</h5>
+                    <p class="card-text">Powerful MP3 voice recorder.</p>
+                    <a href="pr-ss.html" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <a href="pr-pbpro.html"><img src="assets/pbpro/logo.png" class="card-img-top" alt="App 3"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Pocket Bookmark Pro</h5>
+                    <p class="card-text">Store your favorite Web Addresses in app.</p>
+                    <a href="pr-pbpro.html" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <a href="pr-chroma.html"><img src="assets/chroma/logo.png" class="card-img-top" alt="App 3"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Chroma Launcher</h5>
+                    <p class="card-text">Give a new look to your phone or tablet</p>
+                    <a href="pr-chroma.html" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Add more rows here-->
+
+<h1 class="display-6 text-center" >More apps coming soon..</h1>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 PariApps Store. All rights reserved.</p>
+</footer>
+<script>
+    document.getElementById("navContainer").innerHTML = getNavbarContents();
+    document.getElementById("idCustomizableDiv").innerHTML = customizableDiv();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
