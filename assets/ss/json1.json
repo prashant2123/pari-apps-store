@@ -1,0 +1,12 @@
+{
+  "title": "SoundScribe MP3 Recorder",
+  "logo": "/assets/ss/logo.png",
+  "appLink" : "/assets/ss/SoundScribe.apk",
+  "version":"App version 1.4",
+  "description" : "SoundScribe is a powerful MP3 voice recorder app that lets you quickly capture and organize high-quality audio notes, interviews, lectures, and meetings. With automatic transcription, customizable settings, and easy sharing, SoundScribe is the perfect tool for anyone who needs to stay organized and on top of their audio recordings.\n",
+  "screenshots": [
+    "/assets/ss/ss0.png",
+    "/assets/ss/ss1.png",
+    "/assets/ss/ss2.png"
+  ]
+}
