@@ -31,10 +31,11 @@ function getFetchUrl(){
     let url = new URL(window.location.href);
     let hostname = url.hostname;
     if (hostname === "prashant2123.github.io"){
-        prefex = 'pari-apps-store/';
+        prefex = '/pari-apps-store/';
     }else{
         prefex = '';
     }
     return prefex;
 }
+
 
