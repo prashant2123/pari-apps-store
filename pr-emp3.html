@@ -65,7 +65,7 @@
     document.getElementById("idDonate1").innerHTML = getDonateContent1();
     document.getElementById("idCustomizableDiv").innerHTML = customizableDiv();
     //
-    let dir = "pari-apps-store/assets/emp3/json1.json" //root dir for app data.
+    let dir = "assets/emp3/json1.json" //root dir for app data.
     async function fetchData(){
         let res = await fetch(dir);
         let json = await res.json();
@@ -88,5 +88,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
