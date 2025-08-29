@@ -9,7 +9,7 @@ function getNavbarContents(){
         "        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n" +
         "            <ul class=\"navbar-nav ms-auto\">\n" +
         "                <li class=\"nav-item\"><a class=\"nav-link\" href=\"index.html\">Home</a></li>\n" +
-        "                <li class=\"nav-item\"><a class=\"nav-link\" href=\"test.html\">Terms of use</a></li>\n" +
+        "                <li class=\"nav-item\"><a class=\"nav-link\" href=\"terms.html\">Terms of use</a></li>\n" +
         "            </ul>\n" +
         "        </div>\n" +
         "    </div>\n" +
@@ -37,6 +37,7 @@ function getFetchUrl(){
     }
     return prefex;
 }
+
 
 
 
