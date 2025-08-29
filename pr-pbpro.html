@@ -65,19 +65,20 @@
     document.getElementById("idDonate1").innerHTML = getDonateContent1();
     document.getElementById("idCustomizableDiv").innerHTML = customizableDiv();
     //
-    let dir = "/assets/pbpro/json1.json" //root dir for app data.
+    let prefex = getFetchUrl();
+    let dir = prefex + "assets/ss/json1.json" //root dir for app data.
     async function fetchData(){
         let res = await fetch(dir);
         let json = await res.json();
         document.getElementById("idTitle").innerHTML = json.title;
-        document.getElementById("idVersion").innerHTML = json.version;
+        document.getElementById("idVersion").innerHTML = json.version;//json.version;
         document.getElementById("comment").value = json.description;
-        document.getElementById("idLogo").src = json.logo;
-        document.getElementById("idDownload").href = json.appLink;
+        document.getElementById("idLogo").src = prefex + json.logo;
+        document.getElementById("idDownload").href = prefex + json.appLink;
         document.title = json.title;
         let content = "";
         for (let i = 0; i < json.screenshots.length; i++) {
-            content += "<div class=\"col\"><a href=\""+json.screenshots[i]+"\"> <img src=\""+json.screenshots[i]+"\" class=\"img-thumbnail\" alt=\"Screenshot 1\"/></a></div>";
+            content += "<div class=\"col\"><a href=\""+prefex + json.screenshots[i]+"\"> <img src=\""+prefex + json.screenshots[i]+"\" class=\"img-thumbnail\" alt=\"Screenshot 1\"/></a></div>";
         }
         document.getElementById("idScreenshots").innerHTML = content;
     }
@@ -88,3 +89,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
