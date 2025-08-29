@@ -24,4 +24,16 @@ function getDonateContent1(){
 }
 function customizableDiv(){
     return "";
+
+}
+function getFetchUrl(){
+    let prefex = '';
+    let url = new URL(window.location.href);
+    let hostname = url.hostname;
+    if (hostname === "prashant2123.github.io"){
+        prefex = 'pari-apps-store/';
+    }else{
+        prefex = '';
+    }
+    return prefex;
 }
