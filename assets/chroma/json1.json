@@ -1,12 +1,13 @@
 {
   "title": "Chroma Launcher",
-  "logo": "/assets/chroma/logo.png",
-  "appLink" : "/assets/chroma/chroma_launcher1-11.apk",
+  "logo": "assets/chroma/logo.png",
+  "appLink" : "assets/chroma/chroma_launcher1-11.apk",
   "version":"App version 1.11",
   "description" : "If you want to give a new look to your phone or tablet then you should download this amazing Chroma launcher.\n\nFeatures of Chroma launcher pro\n\n- Designed for tablet and phones\n- Simple launcher and easy to use\n- Customize by long pressing on any icon.\n- More themes\n- Access all apps on the same page by just click on all apps button\n- Beautifully designed UI for better use experience\n- amazing themes\n- smooth UI for better user experience, feels like smooth surface\n- change theme from Theme picker option\n- wallpaper changer\n- speed efficient\n- Classic App Drawer\n- Beautiful PPC homescreen\n- No any permissins required\n- Fast & 100% secure\n\nSupported Language:\nEnglish, Russian, French, Hindi, Arabic, German, Japanese, Portuguese, Hebrew,\n\nWhat is Launcher?\nLauncher is the name given to the part of the Android user interface that lets users customize the home screen (e.g. the phone’s desktop), launch mobile apps, make phone calls, and perform other tasks on Android devices (devices that use the Android mobile operating system). Launcher is built into Android, however there are a number of Launchers available for download in the Android Market.\n\nWhy use Launcher?\nThis flexibility in terms of customization can give your device a fresh look and offer you more control over different elements. The best way to personalize an Android phone is through launchers. A launcher will not only change the look of your smartphone but also customize its behaviors.\n",
   "screenshots": [
-    "/assets/chroma/ss0.png",
-    "/assets/chroma/ss1.png",
-    "/assets/chroma/ss2.png"
+    "assets/chroma/ss0.png",
+    "assets/chroma/ss1.png",
+    "assets/chroma/ss2.png"
   ]
+
 }
