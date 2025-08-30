@@ -1,13 +1,14 @@
 {
   "title": "Easy MP3 Recorder",
-  "logo": "/assets/emp3/logo.png",
-  "appLink" : "/assets/emp3/easymp3.apk",
+  "logo": "assets/emp3/logo.png",
+  "appLink" : "assets/emp3/easymp3.apk",
   "version":"App version 1.0",
   "description" : "Easy mp3 recorder can easily record any sound with one click. No recording time limit! High-quality sound reproduction.\nThis recorder for all scenes, whether you want to record meetings, make voice memo or capture music inspiration\n\nFutures:\nEasy to use.\nLightweight.\nOne click recording.\n\nRecording Quality:\nLow: Bitrate 64/kbps, Sample Rate 22050 Hz, Audio Channel MONO\nMed: Bitrate 96/kbps, Sample Rate 44100 Hz, Audio Channel STEREO\nHigh: Bitrate 128/kbps, Sample Rate 44100 Hz, Audio Channel STEREO\n\n\n\nPermission Required:\nRead/Write External Storage (for saving audio file)\nRecord Audio (Required for Record Audio)\n\nRead Privacy  : https://sites.google.com/view/pariapps/easy-mp3-recorder",
   "screenshots": [
-    "/assets/emp3/ss0.png",
-    "/assets/emp3/ss1.png",
-    "/assets/emp3/ss2.png",
-    "/assets/emp3/ss3.png"
+    "assets/emp3/ss0.png",
+    "assets/emp3/ss1.png",
+    "assets/emp3/ss2.png",
+    "assets/emp3/ss3.png"
   ]
+
 }
